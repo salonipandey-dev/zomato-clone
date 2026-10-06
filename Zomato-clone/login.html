@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Zomato Clone</title>
+
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+  <div class="login-container">
+
+    <div class="logo">zomato</div>
+
+    <h2>Welcome Back</h2>
+
+    <p class="subtitle">
+      Login to continue ordering your favourite food
+    </p>
+
+    <form id="loginForm">
+
+      <div class="input-group">
+
+        <label for="email">Email</label>
+
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+        >
+
+        <p class="error" id="emailError">
+          Please enter a valid email.
+        </p>
+
+      </div>
+
+
+      <div class="input-group">
+
+        <label for="password">Password</label>
+
+        <div class="password-wrapper">
+
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your password"
+          >
+
+          <span
+            class="show-password"
+            id="showPassword"
+          >
+            Show
+          </span>
+
+        </div>
+
+        <p class="error" id="passwordError">
+          Password must contain at least 6 characters.
+        </p>
+
+      </div>
+
+
+      <div class="options">
+
+        <label class="remember">
+          <input type="checkbox">
+          Remember me
+        </label>
+
+        <a href="#" class="forgot">
+          Forgot Password?
+        </a>
+
+      </div>
+
+
+      <button
+        type="submit"
+        class="login-btn"
+      >
+        Login
+      </button>
+
+    </form>
+
+
+    <div class="divider">
+      <span>OR</span>
+    </div>
+
+
+    <button class="social-btn">
+      Continue with Google
+    </button>
+
+    <button class="social-btn">
+      Continue with Phone Number
+    </button>
+
+
+    <div class="signup-text">
+
+      New to Zomato?
+
+      <a href="signup.html">
+        Create account
+      </a>
+
+    </div>
+
+
+    <div class="back-home">
+
+      <a href="index.html">
+        ← Back to Home
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <script src="login.js"></script>
+
+</body>
+</html>
